@@ -1,0 +1,53 @@
+   0 cd /home
+   1 ls
+   2 mkdir user
+   3 ls
+   4 cd user
+   5 mkdir start
+   6 ls
+   7 cd start
+   8 touch 1.txt
+   9 ls
+  10 pwd
+  11 nano /home/user/start/1.txt
+  12 date
+  13 date>/home/user/start/1.txt
+  14 cd /home
+  15 nano /home/user/start/1.txt
+  16 echo Start
+  17 echo "Start"
+  18 echo "Start">>/home/user/start/1.txt
+  19 cat/home/user/start/1.txt
+  20 nano /home/user/start/1.txt
+  21 ls
+  22 cd 
+  23 ls
+  24 cd /opt
+  25 ls
+  26 cd /
+  27 ls
+  28 cd /opt
+  29 ls
+  30 mkdir task
+  31 ls
+  32 history
+  33 cd /
+  34 cp /home/user/start/1.txt /opt/task/start.txt
+  35 ls /opt/task/
+  36 cat /
+  37 cat /tail -4
+  38 cat /wc -|
+  39 cat /cd
+  40 cat /cd |wc
+  41 cat /cd |tail
+  42 cat /cd/group |tail
+  43 cd
+  44 ls
+  45 cat /etc/group|wc-|
+  46 undo
+  47 cat /etc/group | head
+  48 cat /etc/group | tail -4
+  49 nano /opt/task/start.txt
+  50 historz
+  51 history
+  52 history>/tmp/history.txt
